@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	max-width: 600px;}
+
+.text {float: none;
+	max-width: 600px;
+	text-align: center;
+	cursor: pointer;
+}
+header {
+	background-color: #073763;
+	color: #CCC;
+	max-width: 600px;
+	height: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: left;
+	z-index: 1;
+}
+#logo { margin-top: 5px;
+		height: 25px;
+		width: 150px;
+}
+#crc { margin-top: 5px;
+font-size: 24px;
+max-width: 550px;
+}
+	
+#search {
+	display: none;
+	margin-top: 30px;
+		width: 230px;
+		}
+
+/*layout*/
+#one, #two, #three{
+	width: 100%;
+	opacity: .4;
+	z-index: -10;
+	background-color: none;
+	}
+	
+li {
+	width: 350px;
+	}
